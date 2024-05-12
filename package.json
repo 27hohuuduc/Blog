@@ -1,0 +1,32 @@
+{
+  "name": "blogweb",
+  "version": "0.0.1",
+  "description": "Serve Blog Website.",
+  "main": "StartUp.js",
+  "author": "ducho",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && tsc && node build.js",
+    "dev": "tsc --build tsconfig.dev.json && node .dev/StartUp.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "express": "^4.18.2",
+    "google-auth-library": "^9.4.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/multer": "^1.4.11",
+    "@types/node": "^20.11.5",
+    "copyfiles": "^2.4.1",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  }
+}

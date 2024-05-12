@@ -1,0 +1,14 @@
+{
+    "include": [
+        "src/**/*"
+    ],
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "CommonJS",
+        "outDir": "dist",
+        "esModuleInterop": true,
+        "typeRoots": [
+            "./node_modules/@types"
+        ]
+    }
+}

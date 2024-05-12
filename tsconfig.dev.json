@@ -1,0 +1,15 @@
+{
+    "include": [
+        "src/**/*"
+    ],
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "CommonJS",
+        "outDir": ".dev",
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "typeRoots": [
+            "./node_modules/@types"
+        ]
+    }
+}
